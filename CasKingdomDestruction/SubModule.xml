@@ -1,0 +1,25 @@
+﻿<Module>
+  <Name value="Cas' Kingdom Destruction Mod"/>
+  <Id value="CasKingdomDestruction"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="CasKingdomDestruction"/>
+      <DLLName value="CasKingdomDestruction.dll"/>
+      <SubModuleClassType value="CasKingdomDestruction.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls/>
+</Module>
